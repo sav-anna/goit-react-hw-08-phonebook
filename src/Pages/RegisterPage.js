@@ -1,6 +1,6 @@
 // import { useDispatch } from 'react-redux';
 import css from './Page.module.css';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useSignupMutation } from 'redux/contactsApi';
 import { toast } from 'react-toastify';
 import { Navigate } from 'react-router-dom';
